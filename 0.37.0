@@ -1,0 +1,17 @@
+Collecting django-allauth
+  Downloading https://files.pythonhosted.org/packages/01/6a/d49746a8ee18a28aac8c22c20baba5b1ddf82a5d24cbd9ddd81733bf8807/django-allauth-0.41.0.tar.gz (545kB)
+Requirement already satisfied: Django>=2.0 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from django-allauth) (2.0.8)
+Requirement already satisfied: python3-openid>=3.0.8 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from django-allauth) (3.1.0)
+Requirement already satisfied: requests-oauthlib>=0.3.0 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from django-allauth) (1.3.0)
+Requirement already satisfied: requests in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from django-allauth) (2.22.0)
+Requirement already satisfied: pytz in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from Django>=2.0->django-allauth) (2018.5)
+Requirement already satisfied: defusedxml in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from python3-openid>=3.0.8->django-allauth) (0.6.0)
+Requirement already satisfied: oauthlib>=3.0.0 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from requests-oauthlib>=0.3.0->django-allauth) (3.1.0)
+Requirement already satisfied: idna<2.9,>=2.5 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from requests->django-allauth) (2.6)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from requests->django-allauth) (2018.4.16)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from requests->django-allauth) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\android\appdata\local\programs\python\python36\lib\site-packages (from requests->django-allauth) (1.22)
+Installing collected packages: django-allauth
+  Running setup.py install for django-allauth: started
+    Running setup.py install for django-allauth: finished with status 'done'
+Successfully installed django-allauth-0.41.0
